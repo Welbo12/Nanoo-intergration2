@@ -1,0 +1,240 @@
+.navbar{
+    display :flex;
+    justify-content: flex-end;
+    
+}
+ .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+   
+ }
+  .nav-links li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 220px;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+  }
+
+  .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #2e2e6f; /* Couleur violette sombre */
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  /* margin: 10px 80px; */
+  width: 1242 px;
+  height: 49.4px;
+}
+
+.footer-left {
+  max-width: 50%;
+  margin: -12px;
+ 
+   
+}
+
+ .footer-right {
+  display: flex;
+  gap: 40px;
+   
+}
+
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+   
+}
+
+.contact-block strong {
+  margin-bottom: -14px;
+  font-weight: bold;
+  display: center;
+}   
+
+
+  .Partiedroit {
+  padding: 2rem;
+  max-width: 400px;
+  font-family: 'Arial', sans-serif;
+}
+
+.nom {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1e1e6a;
+  margin-bottom: -2rem;
+}
+
+.DD {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+  margin-TOP: 3rem;
+}
+
+.Du {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.boton{
+  display: flex;
+  gap : 20px
+}
+.lo{
+  border-radius: 10px;
+}
+
+ .ff{
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #000046;
+  padding: 5px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 90px; 
+  height: 30px;
+
+} 
+.ft{
+  border-radius: 50px;
+   color: #000046 ;
+  background-color: #ffffff;
+  padding: 5px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 120px; 
+  height: 30px;
+} 
+ 
+
+/* .Partiegauche{
+background-color: rgb(163, 105, 233);
+box-shadow: 5px 5px 5px 5px #888888;
+border-radius: 10px;
+margin: 10px 80px;
+width: 500px;
+height: 400px
+}
+
+.aa{
+  background-color: white;
+  height: 50px;
+
+} */
+
+
+
+.Partiegauche {
+  background-color: #bdbdf0;
+
+  box-shadow: 5px 5px 10px #888888;
+  border-radius: 20px;
+  margin: 10px 80px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  font-family: 'Arial', sans-serif; 
+  justify-content: space-between;
+}
+
+.Partiegauche img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nomY {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e1e6a;
+
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e1e6a;
+  margin-top: 5px;
+}
+
+.divider {
+  width: 60%;
+  height: 2px;
+  background-color: #1e1e6a;
+  margin: 8px auto;
+}
+
+.aa.footer {
+  background-color: white;
+  height: 30px;
+  width: 88%;
+  /* border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;  */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 20px;
+   margin-top: auto; 
+   padding-bottom: 10%;
+   /* border-radius:; */
+   border-bottom-right-radius:20px  ;
+   border-bottom-left-radius: 20px;
+  
+}
+
+.aa.footer span {
+  font-size: 14px;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  gap: 200px
+}
+ .nomN{
+  padding-left: 50px;
+  
+ }
+ .PagePrincipale{
+  align-items: center;
+  width: 1520px;
+  height: 730px
+  
+ }
